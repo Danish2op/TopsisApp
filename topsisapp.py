@@ -62,7 +62,7 @@ def main():
 
         missing_data_strategy = st.selectbox(
             "Select the method to handle missing data:",
-            ("mean", "median", "most_frequent", "drop")
+            ("mean", "median", "ffill", "bfill", "interpolate_linear","interpolate_polynomial")
         )
 
         distance_metric = st.selectbox(
