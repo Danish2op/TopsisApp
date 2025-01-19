@@ -10,8 +10,8 @@ import os
 
 def send_email(receiver_email, file_path):
     """Send email with attachment."""
-    sender_email = "dsharma.workmain@gmail.com"  # Your email
-    sender_password = "fqyo cocl efzt bclh"  # App password (not your main email password)
+    sender_email = "advancetopsis@gmail.com"  # Your email
+    sender_password = "dsyt zldb djmp mbtr"  # App password (not your main email password)
 
     # Email setup
     subject = "Your TOPSIS Results"
